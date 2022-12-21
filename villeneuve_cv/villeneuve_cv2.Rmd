@@ -11,7 +11,7 @@ twitter: villeneuvesci
 github: villesci
 linkedin: andrewvilleneuve
 date: "`r format(Sys.time(), '%B %Y')`"
-aboutme: "Andrew is a marine ecologist with interests in global change across levels of organization. He is dedicated to working on applied questions in the face of climate and biodiversity crises."
+aboutme: "Andrew is a marine ecologist with interests in global change across levels of ecological organization. He is dedicated to working on applied questions in the face of climate and biodiversity crises."
 output: 
   vitae::awesomecv:
     page_total: true
