@@ -13,11 +13,10 @@ linkedin: andrewvilleneuve
 date: "`r format(Sys.time(), '%B %Y')`"
 aboutme: "Andrew is a marine ecologist with interests in global change across levels of organization. He is dedicated to working on applied questions in the face of climate and biodiversity crises."
 output: 
-  pdf_document:
-    template: vitae::awesomecv
-
-
+  vitae::awesomecv:
+    page_total: true
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
@@ -52,28 +51,19 @@ orcid_data %>%
 
 # Publications
 
-```{r}
-id<-'BJlkwh0AAAAJ'
-# Get his profile and print his name
-scholar::get_publications(id) %>% 
-  detailed_entries(
-    what = title,
-    when = year,
-    with = author,
-    where = journal,
-    why = cites
-  )%>%arrange(desc(when))
+```{r,results='asis'}
   
+format_publications("BJlkwh0AAAAJ", "A Villeneuve") |> cat(sep='\n\n')
+
 
 ```
-
 # Selected Work and Research Experience
 
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
 "PhD student", "Department of Biological Sciences, University of New Hampshire", "Durham, NH","2022 - Present",
-list("Role of extreme events and organismal physiology in the alteration of marine biogenic habitat"),
+list("Quantifying the impacts of heatwaves on marine invertebrate populations using an exposure magnitude-duration framework"),
 "Knauss Marine Policy Fellow","NOAA Fisheries","Silver Spring, MD","2021-2022",
 list("I worked with the Office of the Assistant Administrator for Fisheries on high-level science management and policy. I worked on improving the NOAA instutional repository, wrote fisheries survey communications materials, and create a bibliometric analysis of NOAA Fisheries publications. I supported NOAA Arctic policy by working on incorporating indigenous traditional ecological knowledge into the US position in a multilateral agreement."),
 "Master's Student","Department of Environmental Conservation, University of Massachusetts Amherst","Amherst, MA","2018-2020",

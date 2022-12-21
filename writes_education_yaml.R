@@ -19,3 +19,4 @@ edulist <- purrr::map(edu[[my_orcid]][["affiliation-group"]][["summaries"]], fun
 })
 names(edulist) <- purrr::map_chr(edulist, "name")
 yaml::write_yaml(edulist, here::here("education.yaml"), handlers = list(Date = function(x) as.character (x)))
+
