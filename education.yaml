@@ -1,0 +1,24 @@
+university_of_new_hampshire_2026:
+  name: university_of_new_hampshire_2026
+  type: degree
+  title: PhD Student
+  university: University of New Hampshire
+  department: Department of Biological Sciences
+  location: Durham, NH
+  date: '2026-12-31'
+university_of_massachusetts_amherst_2021:
+  name: university_of_massachusetts_amherst_2021
+  type: degree
+  title: Master of Science
+  university: University of Massachusetts Amherst
+  department: Environmental Conservation
+  location: Amherst Center, Massachusetts
+  date: '2021-02-01'
+bowdoin_college_2016:
+  name: bowdoin_college_2016
+  type: degree
+  title: Bachelor of Arts
+  university: Bowdoin College
+  department: Department of Biology
+  location: Brunswick, Maine
+  date: '2016-05-20'
