@@ -5,7 +5,7 @@ position: "PhD Student"
 address: "22 Runnells St Apt 5 Portland ME 04103"
 phone: +1 301 509 1941
 profilepic: drew.jpg
-www: villesci.weebly.com
+www: villesci.github.io
 email: "andrewrvilleneuve@gmail.com"
 twitter: villeneuvesci
 github: villesci
