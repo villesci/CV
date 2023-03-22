@@ -1,3 +1,5 @@
+orcid_auth(client_id="APP-MHG77OW9C4KXUPF6",client_secret="ab5d96c6-ba20-4b9f-8002-2f8d731f095a")
+
 
 my_orcid<-"0000-0001-7303-5931"
 works<-orcid_works(my_orcid)

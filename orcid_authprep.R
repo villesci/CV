@@ -16,4 +16,4 @@ orcid_request <- httr::POST(url  = "https://orcid.org/oauth/token",
 orcid_response <- httr::content(orcid_request)
 print(orcid_response$access_token)
 
-usethis::edit_r_environ()
+#usethis::edit_r_environ()
