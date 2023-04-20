@@ -19,7 +19,6 @@ output:
         page_total: true
 ---
 
-
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 library(vitae)
@@ -111,7 +110,7 @@ tribble(
 
 ```{r}
  tribble( ~ award, ~ from, ~ year,   
-"2021 John A. Knauss Marine Policy Fellowship","NOAA Sea Grant","2020","PADI Foundation Grant, $3,141", "PADI Foundation", "2019",
+"New Hampshire Sea Grant Graduate Fellowship, $19,510","New Hampshire Sea Grant","2023","Student Teaching Assistant Summer Fellowship, $5,000","University of New Hampshire","2023","2021 John A. Knauss Marine Policy Fellowship","National Sea Grant","2020","PADI Foundation Grant, $3,141", "PADI Foundation", "2019",
 "Melbourne R. Carriker Student Research Awards in Malacology, $950","American Malacological Society","2019",
 "Treasurer","Environmental Conservation Graduate Council, University of Massachusetts Amherst","2019",
 "Honorable Mention","National Science Foundation Graduate Research Fellowship Program","2019",
@@ -123,33 +122,32 @@ tribble(
 
 # Journal Referee
 
-  * Aquatic Ecology
-  * Ecography
-  * Journal of Molluscan Studies
+-   Aquatic Ecology
+-   Ecography
+-   Journal of Molluscan Studies
 
 # Skills
 
 ## Field and Research
 
-  *	Have used and trained others on ecological research methods, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
-  *	Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. ~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). ~15 coldwater dives (Gulf of Maine, freshwater)
-  *	Basic molecular and bioinformatic skills, including mDNA extraction, isolation, amplification (PCR), sequence assembly, and alignment. Construction of haplotype networks to model population structure, which I have previously used to analyze population structure in the invasive tunicate <i>Didemnum vexillum</i> (undergraduate term paper). 
- *	Comfortable boating skills in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 28’) and basic maintenance experience. Trailering experience. US Boating Certified.
-  *	Experience with animal husbandry and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
- *	Trained Wilderness First Responder. Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in isolated field conditions (e.g. Madagascar, Bay of Fundy, Dominica). 
- *	Advanced French reading, writing, and comprehension. CEFR level B2. 
+-   Have used and trained others on ecological research methods, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
+-   Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
+-   Basic molecular and bioinformatic skills, including mDNA extraction, isolation, amplification (PCR), sequence assembly, and alignment. Construction of haplotype networks to model population structure, which I have previously used to analyze population structure in the invasive tunicate <i>Didemnum vexillum</i> (undergraduate term paper).
+-   Comfortable boating skills in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 28') and basic maintenance experience. Trailering experience. US Boating Certified.
+-   Experience with animal husbandry and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
+-   Trained Wilderness First Responder. Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in isolated field conditions (e.g. Madagascar, Bay of Fundy, Dominica).
+-   Advanced French reading, writing, and comprehension. CEFR level B2.
 
 ## Organizational, Analytical and Computer Skills
 
- *	Experienced with R programming for data management and frequenstist statistical analysis. Extensive use throughout graduate career to analyze data for final thesis. RMarkdown and GitHub repository experience. Graphing using ggplot.
-  *	ArcGIS analysis experience and map production.  *	Image analysis software, including Webplot digitizer, ImageJ, Tracker, and Leica microimaging products.
- *	Scientific figure alteration via Illustrator/Inkscape.
- *	Time management, distance learning, and collaboration applications usage includes Asana, Slack, Zoom, and Google Suite.
- *	Website and repository design in Weebly, Google Sites, Notion, and Github.
- *	Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat. 
- 
+-   Experienced with R programming for data management and frequenstist statistical analysis. Extensive use throughout graduate career to analyze data for final thesis. RMarkdown and GitHub repository experience. Graphing using ggplot.
+-   ArcGIS analysis experience and map production. \* Image analysis software, including Webplot digitizer, ImageJ, Tracker, and Leica microimaging products.
+-   Scientific figure alteration via Illustrator/Inkscape.
+-   Time management, distance learning, and collaboration applications usage includes Asana, Slack, Zoom, and Google Suite.
+-   Website and repository design in Weebly, Google Sites, Notion, and Github.
+-   Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat.
+
 # References
 
-* **Easton White**, PhD Advisor, easton.white@unh.edu
-* **Brian Cheng**, Master's Advisor, bscheng@umass.edu
-
+-   **Easton White**, PhD Advisor, [easton.white\@unh.edu](mailto:easton.white@unh.edu){.email}
+-   **Brian Cheng**, Master's Advisor, [bscheng\@umass.edu](mailto:bscheng@umass.edu){.email}

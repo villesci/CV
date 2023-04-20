@@ -1,0 +1,345 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\colorlet{awesome}{awesome-red}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\photo{drew.jpg}
+\name{Andrew}{Villeneuve}
+
+\position{PhD Student}
+\address{22 Runnells St Apt 5 Portland ME 04103}
+
+\mobile{+1 301 509 1941}
+\email{\href{mailto:andrewrvilleneuve@gmail.com}{\nolinkurl{andrewrvilleneuve@gmail.com}}}
+\homepage{villesci.github.io}
+\github{villesci}
+\linkedin{andrewvilleneuve}
+\twitter{villeneuvesci}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+\quote{Andrew is a marine ecologist with interests in global change
+across levels of ecological organization. He is dedicated to working on
+applied questions in the face of climate and biodiversity crises.}
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{2em}
+\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
+ {% don't indent paragraphs
+  \setlength{\parindent}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1 \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces\fi
+  % set entry spacing
+  \ifnum #2 > 0
+  \setlength{\parskip}{#2\baselineskip}
+  \fi
+ }%
+ {}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\honortitlestyle{#1}}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\honordatestyle{#1}}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {April 2023}
+    {Andrew Villeneuve~~~·~~~Curriculum Vitae}
+  {\thepage~ of \pageref{LastPage}~}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{PhD Student}{University of New Hampshire}{Durham}{2022 - 2026}{}\vspace{-4.0mm}
+    \cventry{Master of Science}{University of Massachusetts Amherst}{Amherst Center}{2018 - 2021}{}\vspace{-4.0mm}
+    \cventry{Bachelor of Arts}{Bowdoin College}{Brunswick}{2012 - 2016}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{publications}{%
+\section{Publications}\label{publications}}
+
+Sasaki, M., Barley, JM., Gignoux-Wolfsohn, S., Hays, CG., Kelly, MW., \&
+\ldots{} (2022). Greater evolutionary divergence of thermal limits
+within marine than terrestrial species. \emph{Nature Climate Change}.
+1-6
+
+Barley, JM., Cheng, BS., Sasaki, M., Gignoux-Wolfsohn, S., Hays, CG., \&
+\ldots{} (2021). Limited plasticity in thermally tolerant ectotherm
+populations: evidence for a trade-off. \emph{Proceedings of the Royal
+Society B}. 288 (1958), 20210765
+
+\textbf{Villeneuve, A.}., Komoroske, LM., \& Cheng, BS. (2021).
+Environment and phenology shape local adaptation in thermal performance.
+\emph{Proceedings of the Royal Society B}. 288 (1955), 20210741
+
+\textbf{Villeneuve, A.}., Komoroske, LM., \& Cheng, BS. (2021).
+Diminished warming tolerance and plasticity in low-latitude populations
+of a marine gastropod. \emph{Conservation Physiology}. 9 (1), coab039
+
+\textbf{Villeneuve, A.}., Thornhill, I., \& Eales, J. (2019). Upstream
+migration and altitudinal distribution patterns of Nereina punctulata
+(Gastropoda: Neritidae) in Dominica, West Indies. \emph{Aquatic
+Ecology}. 53 (2), 205-215
+
+\textbf{Villeneuve, A.}. (2017). Habitat selection and population
+density of the world's smallest chameleon, Brookesia micra, on Nosy
+Hara, Madagascar. \emph{Herpetological Conservation and Biology}. 12
+(2), 334-341
+
+Wheelwright, NT., Taylor, LU., West, BM., Voss, ER., Berzins, SY., \&
+\ldots{} (2017). Pupation site selection and enemy avoidance in the
+introduced pine sawfly (Diprion similis). \emph{Northeastern
+Naturalist}. 24 (sp7)
+
+\hypertarget{selected-work-and-research-experience}{%
+\section{Selected Work and Research
+Experience}\label{selected-work-and-research-experience}}
+
+\begin{cventries}
+    \cventry{PhD student}{Department of Biological Sciences, University of New Hampshire}{Durham, NH}{2022 - Present}{\begin{cvitems}
+\item Quantifying the impacts of heatwaves on marine invertebrate populations using an exposure magnitude-duration framework
+\end{cvitems}}
+    \cventry{Knauss Marine Policy Fellow}{NOAA Fisheries}{Silver Spring, MD}{2021-2022}{\begin{cvitems}
+\item I worked with the Office of the Assistant Administrator for Fisheries on high-level science management and policy. I worked on improving the NOAA instutional repository, wrote fisheries survey communications materials, and create a bibliometric analysis of NOAA Fisheries publications. I supported NOAA Arctic policy by working on incorporating indigenous traditional ecological knowledge into the US position in a multilateral agreement.
+\end{cvitems}}
+    \cventry{Master's Student}{Department of Environmental Conservation, University of Massachusetts Amherst}{Amherst, MA}{2018-2020}{\begin{cvitems}
+\item I conducted research on the growth and survival of locally adapted populations of the Oyster Drill (Urosalpinx cinerea) collected from sites along the latitudinal gradient on the Pacific and Atlantic coasts of the US. I mentored an undergraduate research intern and their independent project as part of the Five College Coastal and Marine Science program. I was a teaching assistant for Marine Ecology and Introduction to Ecology.
+\end{cvitems}}
+    \cventry{Research Assistant}{Hurricane Island Foundation}{Rockland, ME}{2018}{\begin{cvitems}
+\item I assisted growth rate research on bottom culture and ear-hung scallop aquaculture in the Gulf of Maine. Operated outboard motorboats in variable coastal conditions. I mentored two students from the Women of the Sea Program on their independent research projects.
+\end{cvitems}}
+    \cventry{Aquatic Ecologist}{Operation Wallacea}{Rosalie, Dominica}{2017}{\begin{cvitems}
+\item Directed field season research for long-term stream monitoring project using macroinvertebrate biotic indices and tracked migration patterns of a freshwater snail. One published  paper as product. I instructed high school students in field ecology methodology and directed data collection for both projects.
+\end{cvitems}}
+    \cventry{Conservation Intern}{Smithsonian National Zoo}{Washington, DC}{2017}{\begin{cvitems}
+\item I performed animal husbandry of threatened and endangered herpetofauna, and collected behavioral data of amphibians within exhibits
+\end{cvitems}}
+    \cventry{Reef Biodiversity Technician}{Smithsonian National Museum of Natural History}{Washington, DC}{2016}{\begin{cvitems}
+\item Analyed images and data on reef organism growth under ocean acidification conditions. Field processed photographic and genetic samples from settlement places on an expedition in Curaçao. I participated in two submersible dives to collect settlement plates.
+\end{cvitems}}
+    \cventry{Wilderness Technician}{The Wilderness Society}{San Francisco, CA}{2016}{\begin{cvitems}
+\item I completed a wilderness area assessment of Stanislaus and Eldorado National Forests using GPS tablets and ArcGIS. Performed tasks independently in remote mountain areas. I recommended the outlines of a new wilderness area based on observed human impacts and natural features.
+\end{cvitems}}
+    \cventry{Kent Island Fellow}{Bowdoin Science Station}{Kent Island, NB, Canada}{2014}{\begin{cvitems}
+\item I designed and collected data on the effects of current strength on intertidal invertebrate biodiversity.
+\end{cvitems}}
+    \cventry{Marine Science Intern}{Darling Marine Station, University of Maine}{Walpole, ME}{2013}{\begin{cvitems}
+\item I analyzed benthic images from the Drake Passage of species diversity focusing on corals with a master's student.
+\end{cvitems}}
+    \cventry{Lionfish and Aquaculture Intern}{Cape Eleuethera Institute}{Deep Creek, The Bahamas}{2012}{\begin{cvitems}
+\item I maintained open ocean aquaculture cage with juvenile Cobia, involved daily SCUBA diving. I conducted patch reef surveys of fish diversity and lionfish morphological data. REEF fish surveyor certified.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{field-schools}{%
+\section{Field Schools}\label{field-schools}}
+
+\begin{cventries}
+    \cventry{Brunswick, ME}{Bowdoin Marine Science Semester}{2015}{Bowdoin College}{\begin{cvitems}
+\item Immersive marine science semester. Final thesis on population genetics of an invasive tunicate
+\end{cvitems}}
+    \cventry{Taolagnaro, Madagascar}{Madagascar Biodiversity and Natural Resource Management}{2015}{School for International Training}{\begin{cvitems}
+\item Study abroad semester, taught in French
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{grants-fellowships-and-service}{%
+\section{Grants, Fellowships, and
+Service}\label{grants-fellowships-and-service}}
+
+\begin{cventries}
+    \cventry{New Hampshire Sea Grant Graduate Fellowship, \$19,510}{New Hampshire Sea Grant}{}{2023}{}\vspace{-4.0mm}
+    \cventry{Student Teaching Assistant Summer Fellowship, \$5,000}{University of New Hampshire}{}{2023}{}\vspace{-4.0mm}
+    \cventry{2021 John A. Knauss Marine Policy Fellowship}{National Sea Grant}{}{2020}{}\vspace{-4.0mm}
+    \cventry{PADI Foundation Grant, \$3,141}{PADI Foundation}{}{2019}{}\vspace{-4.0mm}
+    \cventry{Melbourne R. Carriker Student Research Awards in Malacology, \$950}{American Malacological Society}{}{2019}{}\vspace{-4.0mm}
+    \cventry{Treasurer}{Environmental Conservation Graduate Council, University of Massachusetts Amherst}{}{2019}{}\vspace{-4.0mm}
+    \cventry{Honorable Mention}{National Science Foundation Graduate Research Fellowship Program}{}{2019}{}\vspace{-4.0mm}
+    \cventry{Kent Island Student Research Fellowship}{Bowdoin Science Station}{}{2014}{}\vspace{-4.0mm}
+    \cventry{Bowdoin Faculty Scholar}{Bowdoin College}{}{2012}{}\vspace{-4.0mm}
+\end{cventries}
+
+\hypertarget{journal-referee}{%
+\section{Journal Referee}\label{journal-referee}}
+
+\begin{itemize}
+\tightlist
+\item
+  Aquatic Ecology
+\item
+  Ecography
+\item
+  Journal of Molluscan Studies
+\end{itemize}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\hypertarget{field-and-research}{%
+\subsection{Field and Research}\label{field-and-research}}
+
+\begin{itemize}
+\tightlist
+\item
+  Have used and trained others on ecological research methods, including
+  transects, quadrats, water quality, species identification (highly
+  proficient in rocky coast Atlantic and Caribbean), habitat
+  classification, microscope and microphotography use, and general
+  photography.
+\item
+  Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf
+  of Maine, and tropical Pacific. PADI Rescue Diver. \textasciitilde50
+  dives for scientific purposes (transect, REEF surveys, aquaculture
+  farms). \textasciitilde15 coldwater dives (Gulf of Maine, freshwater)
+\item
+  Basic molecular and bioinformatic skills, including mDNA extraction,
+  isolation, amplification (PCR), sequence assembly, and alignment.
+  Construction of haplotype networks to model population structure,
+  which I have previously used to analyze population structure in the
+  invasive tunicate Didemnum vexillum (undergraduate term paper).
+\item
+  Comfortable boating skills in the Caribbean, Chesapeake Bay, and Gulf
+  of Maine. Small craft operation (up to 28') and basic maintenance
+  experience. Trailering experience. US Boating Certified.
+\item
+  Experience with animal husbandry and aquatic plumbing. System
+  experience ranges from large open-water aquaculture systems to
+  recirculating seawater systems to tropical reef systems.
+\item
+  Trained Wilderness First Responder. Certified August 2013, recertified
+  June 2018. Wilderness Medical Associates. Experience working in
+  isolated field conditions (e.g.~Madagascar, Bay of Fundy, Dominica).
+\item
+  Advanced French reading, writing, and comprehension. CEFR level B2.
+\end{itemize}
+
+\hypertarget{organizational-analytical-and-computer-skills}{%
+\subsection{Organizational, Analytical and Computer
+Skills}\label{organizational-analytical-and-computer-skills}}
+
+\begin{itemize}
+\tightlist
+\item
+  Experienced with R programming for data management and frequenstist
+  statistical analysis. Extensive use throughout graduate career to
+  analyze data for final thesis. RMarkdown and GitHub repository
+  experience. Graphing using ggplot.
+\item
+  ArcGIS analysis experience and map production. * Image analysis
+  software, including Webplot digitizer, ImageJ, Tracker, and Leica
+  microimaging products.
+\item
+  Scientific figure alteration via Illustrator/Inkscape.
+\item
+  Time management, distance learning, and collaboration applications
+  usage includes Asana, Slack, Zoom, and Google Suite.
+\item
+  Website and repository design in Weebly, Google Sites, Notion, and
+  Github.
+\item
+  Meeting facilitation throughout Knauss fellowship, especially as a
+  member of IARPC secretariat.
+\end{itemize}
+
+\hypertarget{references}{%
+\section{References}\label{references}}
+
+\begin{itemize}
+\tightlist
+\item
+  \textbf{Easton White}, PhD Advisor,
+  \href{mailto:easton.white@unh.edu}{\nolinkurl{easton.white@unh.edu}}
+\item
+  \textbf{Brian Cheng}, Master's Advisor,
+  \href{mailto:bscheng@umass.edu}{\nolinkurl{bscheng@umass.edu}}
+\end{itemize}
+
+
+\label{LastPage}~
+\end{document}
