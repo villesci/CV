@@ -93,11 +93,14 @@ list("I maintained open ocean aquaculture cage with juvenile Cobia, involved dai
 
 ```
 
-# Field Schools
+# Trainings and Field Schools
 
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
+    "Emerging topics in coastal marine ecosystems", "European Marine Research Network", "University of Cádiz, Spain","2023",list("Summer training course on emerging topics, Euromarine network"),
+  "Workshop in Support of Developing Indigenous Collaboration in Arctic Observing Networks","Kawerak, Inc.", "Virtual","2021",list("Training for incorporating Indigenous Knowledge for application within the Central Arctic Ocean Fishing Agreement"),
+
   "Bowdoin Marine Science Semester","Bowdoin College","Brunswick, ME","2015",
   list("Immersive marine science semester. Final thesis on population genetics of an invasive tunicate"),
   "Madagascar Biodiversity and Natural Resource Management","School for International Training","Taolagnaro, Madagascar","2015",
@@ -132,8 +135,7 @@ tribble(
 
 -   Have used and trained others on ecological research methods, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
 -   Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
--   Basic molecular and bioinformatic skills, including mDNA extraction, isolation, amplification (PCR), sequence assembly, and alignment. Construction of haplotype networks to model population structure, which I have previously used to analyze population structure in the invasive tunicate <i>Didemnum vexillum</i> (undergraduate term paper).
--   Comfortable boating skills in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 28') and basic maintenance experience. Trailering experience. US Boating Certified.
+-   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 35\') and basic maintenance experience. Trailering experience. State of Maine boating license
 -   Experience with animal husbandry and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
 -   Trained Wilderness First Responder. Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in isolated field conditions (e.g. Madagascar, Bay of Fundy, Dominica).
 -   Advanced French reading, writing, and comprehension. CEFR level B2.
@@ -141,10 +143,11 @@ tribble(
 ## Organizational, Analytical and Computer Skills
 
 -   Experienced with R programming for data management and frequenstist statistical analysis. Extensive use throughout graduate career to analyze data for final thesis. RMarkdown and GitHub repository experience. Graphing using ggplot.
--   ArcGIS analysis experience and map production. \* Image analysis software, including Webplot digitizer, ImageJ, Tracker, and Leica microimaging products.
--   Scientific figure alteration via Illustrator/Inkscape.
+-   ArcGIS analysis experience and map production.
+-   Image analysis software, including Webplot digitizer, ImageJ, Tracker, and Leica microimaging products.
 -   Time management, distance learning, and collaboration applications usage includes Asana, Slack, Zoom, and Google Suite.
--   Website and repository design in Weebly, Google Sites, Notion, and Github.
+-   Website design in Weebly, Google Sites, and Quarto.
+-   Repository and cloud computing, GitHub and Digital Ocean
 -   Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat.
 
 # References
