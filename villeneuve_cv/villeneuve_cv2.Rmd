@@ -2,7 +2,7 @@
 name: Andrew
 surname: Villeneuve
 position: "PhD Student"
-address: "22 Runnells St Apt 5 Portland ME 04103"
+address: "25 Emanual DR, Brunswick, ME 04011"
 phone: +1 301 509 1941
 profilepic: drew.jpg
 www: villesci.github.io
@@ -109,11 +109,11 @@ tribble(
 
 ```
 
-# Grants, Fellowships, and Service
+# Grants and Fellowships
 
 ```{r}
  tribble( ~ award, ~ from, ~ year,   
-"New Hampshire Sea Grant Graduate Fellowship, $19,510","New Hampshire Sea Grant","2023","Student Teaching Assistant Summer Fellowship, $5,000","University of New Hampshire","2023","2021 John A. Knauss Marine Policy Fellowship","National Sea Grant","2020","PADI Foundation Grant, $3,141", "PADI Foundation", "2019",
+"New Hampshire Sea Grant Graduate Fellowship, $19,510","New Hampshire Sea Grant","2023","School of Marine Sciences and Oceanography Graduate Research Fund, $2,010","University of New Hampshire","2023","Student Teaching Assistant Summer Fellowship, $5,000","University of New Hampshire","2023","2021 John A. Knauss Marine Policy Fellowship","National Sea Grant","2020","PADI Foundation Grant, $3,141", "PADI Foundation", "2019",
 "Melbourne R. Carriker Student Research Awards in Malacology, $950","American Malacological Society","2019",
 "Treasurer","Environmental Conservation Graduate Council, University of Massachusetts Amherst","2019",
 "Honorable Mention","National Science Foundation Graduate Research Fellowship Program","2019",
@@ -123,11 +123,14 @@ tribble(
 
 ```
 
-# Journal Referee
+# Service
 
--   Aquatic Ecology
--   Ecography
--   Journal of Molluscan Studies
+-   Ecological Forecasting Initiative Student Association (EFISA) Co-chair, 2024-2026.
+-   Journal Referee
+    -   Aquatic Ecology
+    -   Ecography
+    -   Journal of Molluscan Studies
+    -   Ecology
 
 # Skills
 
@@ -135,20 +138,17 @@ tribble(
 
 -   Have used and trained others on ecological research methods, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
 -   Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
--   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 35\') and basic maintenance experience. Trailering experience. State of Maine boating license
+-   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 35') and basic maintenance experience. Trailering experience. State of Maine boating license
 -   Experience with animal husbandry and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
 -   Trained Wilderness First Responder. Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in isolated field conditions (e.g. Madagascar, Bay of Fundy, Dominica).
 -   Advanced French reading, writing, and comprehension. CEFR level B2.
 
 ## Organizational, Analytical and Computer Skills
 
--   Experienced with R programming for data management and frequenstist statistical analysis. Extensive use throughout graduate career to analyze data for final thesis. RMarkdown and GitHub repository experience. Graphing using ggplot.
--   ArcGIS analysis experience and map production.
--   Image analysis software, including Webplot digitizer, ImageJ, Tracker, and Leica microimaging products.
+-   Experienced with R programming for data management and frequentist and Bayesian statistical analysis. Extensive use throughout graduate career. RMarkdown, Quarto, and GitHub repository experience.
 -   Time management, distance learning, and collaboration applications usage includes Asana, Slack, Zoom, and Google Suite.
 -   Website design in Weebly, Google Sites, and Quarto.
--   Repository and cloud computing, GitHub and Digital Ocean
--   Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat.
+-   Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat and EFISA co-chair.
 
 # References
 
