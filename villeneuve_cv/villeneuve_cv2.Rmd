@@ -131,6 +131,7 @@ tribble(
     -   Ecography
     -   Journal of Molluscan Studies
     -   Ecology
+    -   Conservation Physiology
 
 # Skills
 
