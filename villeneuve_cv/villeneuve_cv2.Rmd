@@ -126,11 +126,12 @@ tribble(
 # Teaching
 
 ```{r}
-tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
+tibble::tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
         "Co-Instructor","Tohoku University","Sendai, Japan","2025","R by the Sea Japan",
         "Teaching Assistant","University of New Hampshire","Durham, NH","2022-2023","Introductory Biology",
-        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2018,2020","Marine Ecology",
-        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2019, 2020","Fundamentals of Ecology",)
+        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2018, 2020","Marine Ecology",
+        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2019, 2020","Fundamentals of Ecology")%>%
+  detailed_entries(role, dates, uni, loc, details)
 ```
 
 # Service
@@ -160,7 +161,7 @@ tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
 
 -   Trained **Wilderness First Responder.** Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in **isolated field conditions** (e.g. Madagascar, Bay of Fundy, Dominica).
 
--    Advanced **French** reading, writing, and comprehension. CEFR level B2.
+-   Advanced **French** reading, writing, and comprehension. CEFR level B2.
 
 ## Organizational, Analytical and Computer Skills
 
