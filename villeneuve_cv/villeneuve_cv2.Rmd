@@ -1,7 +1,7 @@
 ---
 name: Andrew
 surname: Villeneuve
-position: "PhD Student"
+position: "PhD Candidate"
 address: "25 Emanual DR, Brunswick, ME 04011"
 phone: +1 301 509 1941
 profilepic: drew.jpg
@@ -123,11 +123,22 @@ tribble(
 
 ```
 
+# Teaching
+
+```{r}
+tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
+        "Co-Instructor","Tohoku University","Sendai, Japan","2025","R by the Sea Japan",
+        "Teaching Assistant","University of New Hampshire","Durham, NH","2022-2023","Introductory Biology",
+        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2018,2020","Marine Ecology",
+        "Teaching Assistant","University of Massachusetts Amherst","Amherst, MA","2019, 2020","Fundamentals of Ecology",)
+```
+
 # Service
 
 -   Ecological Forecasting Initiative Student Association (EFISA) Co-chair, 2024-2026.
 -   Journal Referee
     -   Aquatic Ecology
+    -   Journal of Animal Ecology
     -   Ecography
     -   Journal of Molluscan Studies
     -   Ecology
@@ -137,19 +148,27 @@ tribble(
 
 ## Field and Research
 
--   Have used and trained others on ecological research methods, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
--   Competent SCUBA diver and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
--   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 35') and basic maintenance experience. Trailering experience. State of Maine boating license
--   Experience with animal husbandry and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
--   Trained Wilderness First Responder. Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in isolated field conditions (e.g. Madagascar, Bay of Fundy, Dominica).
--   Advanced French reading, writing, and comprehension. CEFR level B2.
+-   Have used and trained others on ecological **research methods**, including transects, quadrats, water quality, species identification (highly proficient in rocky coast Atlantic and Caribbean), habitat classification, microscope and microphotography use, and general photography.
+
+<!-- -->
+
+-   Competent **SCUBA diver** and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
+
+-   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 28’) and basic maintenance experience. Trailering experience. State of Maine boating license.
+
+-   Experience with **animal husbandry** and aquatic plumbing. System experience ranges from large open-water aquaculture systems to recirculating seawater systems to tropical reef systems.
+
+-   Trained **Wilderness First Responder.** Certified August 2013, recertified June 2018. Wilderness Medical Associates. Experience working in **isolated field conditions** (e.g. Madagascar, Bay of Fundy, Dominica).
+
+-    Advanced **French** reading, writing, and comprehension. CEFR level B2.
 
 ## Organizational, Analytical and Computer Skills
 
--   Experienced with R programming for data management and frequentist and Bayesian statistical analysis. Extensive use throughout graduate career. RMarkdown, Quarto, and GitHub repository experience.
--   Time management, distance learning, and collaboration applications usage includes Asana, Slack, Zoom, and Google Suite.
--   Website design in Weebly, Google Sites, and Quarto.
--   Meeting facilitation throughout Knauss fellowship, especially as a member of IARPC secretariat and EFISA co-chair.
+-   Advanced data science, visualization, frequentist and Bayesian hierarchical statistical Modeling, **R and Rstudio**
+-   Oceanographic data, **Python**
+-   Version control, **Git and Github**
+-   Reproducible workflows and websites, **Markdown, Quarto, and Jupyter Notebooks**
+-   Parallel computing and big data, **BASH and Slurm**
 
 # References
 
