@@ -98,7 +98,8 @@ list("I maintained open ocean aquaculture cage with juvenile Cobia, involved dai
 ```{r}
 tribble(
   ~ degree, ~ uni, ~ loc, ~ dates, ~ details,
-    "Emerging topics in coastal marine ecosystems", "European Marine Research Network", "University of Cádiz, Spain","2023",list("Summer training course on emerging topics, Euromarine network"),
+  "French-American Doctoral Exchange on Ocean Science, "Ambassade de France aux États-Unis","Nice, France","2025",list("Doctoral student exchange program"),   
+  "Emerging topics in coastal marine ecosystems", "European Marine Research Network", "University of Cádiz, Spain","2023",list("Summer training course on emerging topics, Euromarine network"),
   "Workshop in Support of Developing Indigenous Collaboration in Arctic Observing Networks","Kawerak, Inc.", "Virtual","2021",list("Training for incorporating Indigenous Knowledge for application within the Central Arctic Ocean Fishing Agreement"),
 
   "Bowdoin Marine Science Semester","Bowdoin College","Brunswick, ME","2015",
