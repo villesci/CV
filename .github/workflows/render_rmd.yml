@@ -29,7 +29,7 @@ jobs:
 
     - name: Render Rmd to PDF
       run: |
-        R -e "rmarkdown::render('villeneuve_cv/villenuve_cv2.Rmd', output_format = 'pdf_document')"
+        R -e "rmarkdown::render('villeneuve_cv/villeneuve_cv2.Rmd', output_format = 'pdf_document')"
 
     - name: Check out the target repository
       uses: actions/checkout@v3
