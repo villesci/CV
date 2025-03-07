@@ -114,6 +114,7 @@ tribble(
 
 ```{r}
  tribble( ~ award, ~ from, ~ year,   
+"Dissertation Year Fellowship, $25,310","University of New Hampshire","2025",
 "New Hampshire Sea Grant Graduate Fellowship, $19,510","New Hampshire Sea Grant","2023","School of Marine Sciences and Oceanography Graduate Research Fund, $2,010","University of New Hampshire","2023","Student Teaching Assistant Summer Fellowship, $5,000","University of New Hampshire","2023","2021 John A. Knauss Marine Policy Fellowship","National Sea Grant","2020","PADI Foundation Grant, $3,141", "PADI Foundation", "2019",
 "Melbourne R. Carriker Student Research Awards in Malacology, $950","American Malacological Society","2019",
 "Treasurer","Environmental Conservation Graduate Council, University of Massachusetts Amherst","2019",
