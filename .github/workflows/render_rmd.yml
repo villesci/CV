@@ -25,7 +25,7 @@ jobs:
 
     - name: Install R packages
       run: |
-        R -e "install.packages(c('rmarkdown','tidyverse','vitae','tinytex','scholar','rorcid','rcrossref','purrr','yaml'))"
+        R -e "pkgs <- unique(renv::dependencies()$Package); install.packages(pkgs)"
 
     - name: Render Rmd to PDF
       run: |
