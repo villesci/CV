@@ -7,7 +7,6 @@ phone: +1 301 509 1941
 profilepic: drew.jpg
 www: villesci.github.io
 email: "andrewrvilleneuve@gmail.com"
-twitter: villeneuvesci
 github: villesci
 linkedin: andrewvilleneuve
 date: "`r format(Sys.time(), '%B %Y')`"
