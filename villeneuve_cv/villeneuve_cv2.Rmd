@@ -155,7 +155,7 @@ tibble::tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
 
 <!-- -->
 
--   Competent **SCUBA diver** and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
+-   Andvanced **SCUBA diver** and snorkeler. 100+ Dives in the Caribbean, Gulf of Maine, and tropical Pacific. PADI Rescue Diver. \~50 dives for scientific purposes (transect, REEF surveys, aquaculture farms). \~15 coldwater dives (Gulf of Maine, freshwater)
 
 -   Comfortable **boating skills** in the Caribbean, Chesapeake Bay, and Gulf of Maine. Small craft operation (up to 28’) and basic maintenance experience. Trailering experience. State of Maine boating license.
 
