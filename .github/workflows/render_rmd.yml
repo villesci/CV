@@ -21,15 +21,15 @@ jobs:
     - name: Install system dependencies
       run: |
         sudo apt-get update
-        sudo apt-get install -y libcurl4-openssl-dev libxml2-dev libssl-dev pandoc
+        sudo apt-get install -y libfontconfig1-dev libssl-dev libxml2-dev
 
     - name: Install R packages
       run: |
-        R -e "pkgs <- unique(renv::dependencies()$Package); install.packages(pkgs)"
+        install.packages(c("scholar", "systemfonts", "textshaping", "ragg", "ggforce", "ggraph", "tidyverse"))
 
-    - name: Render Rmd to PDF
+    - name: Render RMarkdown
       run: |
-        R -e "rmarkdown::render('villeneuve_cv/villeneuve_cv2.Rmd', output_format = 'pdf_document')"
+        R -e "rmarkdown::render('villeneuve_cv2.Rmd')"
 
     - name: Check out the target repository
       uses: actions/checkout@v3
