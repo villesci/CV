@@ -25,7 +25,7 @@ jobs:
 
     - name: Install R packages
       run: |
-        R -e "install.packages(c("scholar", "systemfonts", "textshaping", "ragg", "ggforce", "ggraph", "tidyverse"))"
+        R -e "install.packages(c('scholar', 'systemfonts', 'textshaping', 'ragg', 'ggforce', 'ggraph', 'tidyverse'))"
 
     - name: Render RMarkdown
       run: |
