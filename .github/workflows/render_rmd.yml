@@ -25,11 +25,11 @@ jobs:
 
     - name: Install R packages
       run: |
-        install.packages(c("scholar", "systemfonts", "textshaping", "ragg", "ggforce", "ggraph", "tidyverse"))
+        R -e "install.packages(c("scholar", "systemfonts", "textshaping", "ragg", "ggforce", "ggraph", "tidyverse"))"
 
     - name: Render RMarkdown
       run: |
-        R -e "rmarkdown::render('villeneuve_cv2.Rmd')"
+        R -e "rmarkdown::render('villeneuve_cv/villeneuve_cv2.Rmd')"
 
     - name: Check out the target repository
       uses: actions/checkout@v3
