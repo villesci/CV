@@ -2,51 +2,32 @@ name: Render Rmd to PDF
 
 on:
   push:
-    paths:
-      - '**.Rmd'
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  render-pdf:
+  render_document:
     runs-on: ubuntu-latest
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
-
-    - name: Set up R
-      uses: r-lib/actions/setup-r@v2
-      with:
-        r-version: '4.3.0'
-        
-    - name: Install system dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y libfontconfig1-dev libssl-dev libxml2-dev
-
-    - name: Install R packages
-      run: |
-        R -e "install.packages(c('scholar', 'systemfonts', 'textshaping', 'ragg', 'ggforce', 'ggraph', 'tidyverse'))"
-
-    - name: Render RMarkdown
-      run: |
-        R -e "rmarkdown::render('villeneuve_cv/villeneuve_cv2.Rmd')"
-
-    - name: Check out the target repository
-      uses: actions/checkout@v3
-      with:
-        repository: villesci/villesci.github.io
-        path: main
-        token: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Copy PDF to target repository
-      run: |
-        cp villeneuve_cv/villenuve_cv2.pdf main/
-
-    - name: Commit and push PDF
-      run: |
-        cd main
-        git config --global user.email "andrewrvilleneuve@gmail.com"
-        git config --global user.name "villesci"
-        git add .
-        git commit -m "Add rendered PDF"
-        git push
+      - name: Set up Git repository
+        uses: actions/checkout@v2
+      - name: Render document
+        uses: lc5415/rmarkdown-action@v1
+        with:
+          input_file: villeneuve_cv/villeneuve_cv2.Rmd
+	  output_format: pdf_document
+      - name: Commit files
+        run: |
+          git config --local core.autocrlf false
+          git config --local user.email "${{ github.actor }}@users.noreply.github.com"
+          git config --villesci "${{ github.actor }}"
+          git add . && git add --renormalize .
+          git pull origin ${{ github.head_ref }} --autostash --rebase -X ours
+          git commit --allow-empty -am "AUTO-GH ACTION: ${{ github.workflow }}"
+          NO_PAGER=1 git --no-pager diff HEAD^
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          branch: ${{ github.head_ref }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
