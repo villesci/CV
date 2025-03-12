@@ -34,7 +34,7 @@ jobs:
 
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages("remotes", repos="https://packagemanager.posit.co/cran/__linux__/latest")'
+          Rscript -e 'install.packages("remotes")'
           Rscript -e 'remotes::install_cran(c("rmarkdown", "tinytex", "vitae", "scholar", "rorcid", "rcrossref", "ggforce", "ggraph", "purrr", "yaml", "tidyr", "dplyr"), dependencies=TRUE)'
 
       - name: Install Minimal TinyTeX
