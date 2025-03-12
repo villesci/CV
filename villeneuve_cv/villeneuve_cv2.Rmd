@@ -66,7 +66,7 @@ format_publications("BJlkwh0AAAAJ", "A Villeneuve") |> cat(sep='\n\n')
 ```{r}
 tribble(
   ~ role, ~ company, ~ loc, ~ dates, ~ details,
-"PhD student", "Department of Biological Sciences, University of New Hampshire", "Durham, NH","2022 - Present",
+"PhD Candidate", "Department of Biological Sciences, University of New Hampshire", "Durham, NH","2022 - Present",
 list("Quantifying the impacts of heatwaves on marine invertebrate populations using an exposure magnitude-duration framework"),
 "Knauss Marine Policy Fellow","NOAA Fisheries","Silver Spring, MD","2021-2022",
 list("I worked with the Office of the Assistant Administrator for Fisheries on high-level science management and policy. I worked on improving the NOAA instutional repository, wrote fisheries survey communications materials, and create a bibliometric analysis of NOAA Fisheries publications. I supported NOAA Arctic policy by working on incorporating indigenous traditional ecological knowledge into the US position in a multilateral agreement."),
