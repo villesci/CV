@@ -16,33 +16,30 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
+      - name: Cache R packages
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/R
+          key: ${{ runner.os }}-R-${{ hashFiles('**/DESCRIPTION') }}
+          restore-keys: |
+            ${{ runner.os }}-R-
+
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libcurl4-openssl-dev libssl-dev libxml2-dev
+
       - name: Install R dependencies
         run: |
-          Rscript -e 'install.packages(c("rmarkdown", "tinytex", "vitae", "scholar", "rorcid", "rcrossref", "purrr", "yaml", "tidyr", "dplyr"),dependencies=T)'
-          Rscript -e 'tinytex::install_tinytex()'
+          Rscript -e 'install.packages("remotes", repos="https://packagemanager.posit.co/cran/__linux__/latest")'
+          Rscript -e 'remotes::install_cran(c("rmarkdown", "tinytex", "vitae", "scholar", "rorcid", "rcrossref", "ggforce", "ggraph", "purrr", "yaml", "tidyr", "dplyr"), dependencies=TRUE)'
+
+      - name: Install Minimal TinyTeX
+        run: |
+          Rscript -e 'if (!tinytex::is_tinytex()) tinytex::install_tinytex()'
+          Rscript -e 'tinytex::tlmgr_install(c("titlesec", "fancyhdr", "enumitem"))'
 
       - name: Render CV
         run: |
           rmarkdown::render("villeneuve_cv/villeneuve_cv2.Rmd", output_format = "pdf_document")
         shell: Rscript {0}
-
-      - name: Set up SSH for villesci repo
-        run: |
-          mkdir -p ~/.ssh
-          echo "${{ secrets.VILLESI_DEPLOY_KEY }}" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-
-      - name: Clone villesci repo
-        run: |
-          git clone git@github.com:your-username/villesci.git
-          cp villeneuve_cv/villeneuve_cv2.pdf villesci/villeneuve_cv2.pdf
-
-      - name: Commit and Push PDF to villesci
-        run: |
-          cd villesci
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add villeneuve_cv2.pdf
-          git commit -m "Updated CV PDF: $(date)" || echo "No changes to commit"
-          git push
