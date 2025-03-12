@@ -143,8 +143,8 @@ tibble::tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
     -   Aquatic Ecology
     -   Journal of Animal Ecology
     -   Ecography
-    -   Journal of Molluscan Studies
     -   Ecology
+    -   Journal of Molluscan Studies
     -   Conservation Physiology
 
 # Skills
