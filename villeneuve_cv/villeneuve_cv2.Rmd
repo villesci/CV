@@ -141,9 +141,9 @@ tibble::tribble( ~ role, ~ uni, ~ loc, ~ dates, ~ details,
 -   Ecological Forecasting Initiative Student Association (EFISA) Co-chair, 2024-2026.
 -   Journal Referee
     -   Aquatic Ecology
-    -   Journal of Animal Ecology
     -   Ecography
     -   Ecology
+    -   Journal of Animal Ecology
     -   Journal of Molluscan Studies
     -   Conservation Physiology
 
